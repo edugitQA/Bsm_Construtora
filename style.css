@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-dark1: rgb(14, 14, 14);
+    --color-dark2: rgb(32, 32, 32);
+    --color-white1: #fff;
+    --color-white2: #fafbfc82;
+    --color-orange1: rgb(223, 97, 19);
+    --color-orange2: rgb(215, 60,10);
+    --color-purple: rgb(54, 6, 137);
+}
+body{
+    background-image: url('https://www.smnadv.com.br/wp-content/uploads/2020/02/Nova-NR-18-traz-mudanc%CC%A7as-importantes-para-a-construc%CC%A7a%CC%83o-civil-sotto-maior-e-nagel-advogados.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Lato';
+    height: 100vh;
+
+}
+
+header{
+    background-color: var(--color-dark1);
+    box-shadow: 1px 1px 4px var(--color-dark1);
+    padding: 10px;
+    color: var(--color-white1);
+    text-align: center;
+    width: 100%;
+
+}
+main{
+    padding: 30px 50px;
+}
+
+span{
+    font-size: 14px;
+}
+
+.card{
+    background-color: var(--color-white2);
+    border: 1px solid var(--color-dark2);
+    margin-top: 1rem;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.lineInput{
+    display: grid;
+    margin-bottom: 10px;
+}
+
+.lineInput3{
+    display: grid;
+    margin-bottom: 10px;
+    width: 1rem;
+    
+}
+input{
+    padding: 5px;
+    border: 1px solid var(--color-dark1);
+    outline: 0;
+    border-radius: 3px;
+}
+
+select{
+    display: inline;
+    padding: 5px;
+    outline: none;
+    border-radius: 3px;
+}
+
+button{
+    border: none;
+    padding: 5px;
+    outline: none;
+    background-color: var(--color-orange1);
+    box-shadow: 1px 1px 4px var(--color-dark1);
+    border-radius: 3px;
+    font-weight: bold;
+    color: var(--color-dark1);
+    cursor: pointer;
+    transition: all ease .4s;
+}
+
+button:hover{
+    background-color: var(--color-orange2);
+}
+
+.content{
+    margin-top: 15px;
+}
+
+table{
+    border-collapse: collapse;
+    border:1px solid var(--color-dark2);
+    width: 100%;
+}
+
+table th, td{
+    background-color: var(--color-white2);
+    padding: 1px, 5px;
+    text-align: left;
+}
+
+table td img{
+    width: 22px;
+}
+.center{
+    text-align: center;
+}
