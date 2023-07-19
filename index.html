@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="Pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <script src="./script.js" defer></script>
   <title>BSM Construções</title>
+
 </head>
 
 <body>
@@ -31,34 +33,37 @@
         </svg></h2>
       <span>Controle de Produtividade de Funcionários</span>
     </div>
-    <div class="card">
-      <div class="lineInput">
+    <div class="card-content">
+      <form id="form">
+
         <label>Nome do Funcionário:</label>
-        <input type="text" id="produto" placeholder="cadastrar Funcionário">
-      </div>
-      <select class="lineInput" id="profissaoBsm">
-        <option value="prof-01" selected>Profissão</option>
-        <option value="ladrilheiro">Ladrilheiro</option>
-        <option value="pedreiro">Pedreiro</option>
-        <option value="adujante">Ajudante</option>
-        <option value="MestreObras">Mestre de Obras</option>
-        
-      </select>
-      <select class="lineInput" id="servicoBsm">
-        <option value="serv-01" selected>Serviço</option>
-        <option value="Alvenaria">Alvenaria</option>
-        <option value="contra-piso">Contra Piso</option>
-        <option value="cerâmica">Cerâmica</option>
-        <option value="Porcelanato">Porcelanato</option>
-        <option value="Rejunte">Rejunte</option>
-      </select>
-      <input type="date">
-      <div class="lineInput3">
-        <label>Insira metragem Realizada:</label>
-        <input type="number" id="metros" placeholder="Metragem">
-      </div>
-      <button id="btn1" onclick="produto.save()">Enviar</button>
-      <button onclick="">Cancelar</button>
+        <input type="text" class="funcionarioBsm" placeholder="cadastrar Funcionário">
+
+        <select class="select" id="profissaoBsm" onchange="atualizaSelectProfissao()">
+          <option value="prof-01" selected>Profissão</option>
+          <option value="Prof-02">Ladrilheiro</option>
+          <option value="prof-03-">Pedreiro</option>
+          <option value="prof-04-">Ajudante</option>
+          <option value="prof-05-">Mestre de Obras</option>
+        </select>
+
+        <select class="select" id="servicoBsm" onchange="atualizaSelectServico()">
+          <option value="serv-01" seleqcted>Tarefas</option>
+          <option value="serv-02">Alvenaria</option>
+          <option value="serv-03">Contra Piso</option>
+          <option value="serv-01">Cerâmica</option>
+          <option value="Porcelanato">Porcelanato</option>
+          <option value="Reajunte">Rejunte</option>
+        </select>
+
+        <input class="date" type="date">
+        <label>Insira metragem Realizada:
+          <input type="number" id="metros" placeholder="Metros">
+
+          <br>
+          <input class="button" type="submit" value="enviar">
+          <input class="button" type="submit" value="cancelar">
+      </form>
       <div class="content">
         <table border="1">
           <thead>
@@ -74,4 +79,5 @@
       </div>
   </main>
 </body>
+
 </html>
