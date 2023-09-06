@@ -22,3 +22,5 @@ Eduardo Alves de Paulo Ferreira(Front-end/banco de dados)
 Cleberson Duarte(back-end/banco de dados)
 Henrique Medeiros(back-end/banco de dados)
 
+Alterações de posicionamentos nos titulos
+Ateração de responsividade do formulário
