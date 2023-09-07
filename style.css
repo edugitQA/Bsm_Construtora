@@ -13,7 +13,7 @@ body {
     background-image: url('https://www.smnadv.com.br/wp-content/uploads/2020/02/Nova-NR-18-traz-mudanc%CC%A7as-importantes-para-a-construc%CC%A7a%CC%83o-civil-sotto-maior-e-nagel-advogados.jpg');
     background-size: cover;
     font-family: 'Lato';
-    height: 100vh;
+    height:100vh;
     margin: 0;
     padding: 0;
 }
@@ -88,16 +88,12 @@ input[type="text"], input[type="number"], select {
     background-color: #fff;
     color: #333;
 }
-/* select {
-    margin: 5px;
-    display: inline;
-    padding: 5px;
-    outline: none;
-    border-radius: 3px;
-} */
 
-.date {
+#date {
     margin-top: 5px;
+    border: none;
+    padding: 9px;
+    border-radius: 5px;
 }
 
 #metros {
@@ -166,29 +162,25 @@ footer {
 #result {
     margin-top: 15px;
     padding: 10px;
-    background-color: #e0e0e0;
+    background-color: var(--color-white2);
     border-radius: 5px;
     color: var(--color-dark2);
+    font-weight: bold;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 760px) {
     .card-container {
         display: flex;
         justify-content: center;
-        max-width: 150%;
-        margin-left: 10PX;
+        max-width: 760px;
+        margin-left: 5PX;
+        margin-right: 5px;
         padding: 10px;
     }
     input[type="text"], input[type="number"], select {
         margin-bottom: 10px;
     }
-} 
-
-
-
-
-
-
+}
 
 
 

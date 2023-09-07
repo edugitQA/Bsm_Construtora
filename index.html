@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <script src="./script.js" defer></script>
+  <script src="./script.js"></script>
   <title>BSM Construções</title>
 </head>
 
@@ -21,62 +21,58 @@
           d="M0 .5A.5.5 0 0 1 .5 0h15a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H14v2h1.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H14v2h1.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5H2v-2H.5a.5.5 0 0 1-.5-.5v-3A.5.5 0 0 1 .5 6H2V4H.5a.5.5 0 0 1-.5-.5v-3zM3 4v2h4.5V4H3zm5.5 0v2H13V4H8.5zM3 10v2h4.5v-2H3zm5.5 0v2H13v-2H8.5zM1 1v2h3.5V1H1zm4.5 0v2h5V1h-5zm6 0v2H15V1h-3.5zM1 7v2h3.5V7H1zm4.5 0v2h5V7h-5zm6 0v2H15V7h-3.5zM1 13v2h3.5v-2H1zm4.5 0v2h5v-2h-5zm6 0v2H15v-2h-3.5z" />
       </svg></h1>
   </header>
-  
-    <div class="title">
-      <h2>BSM <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-          class="bi bi-house-gear" viewBox="0 0 16 16">
-          <path
-            d="M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.708L8 2.207l-5 5V13.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 2 13.5V8.207l-.646.647a.5.5 0 1 1-.708-.708L7.293 1.5Z" />
-          <path
-            d="M11.886 9.46c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.044c-.613-.181-.613-1.049 0-1.23l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382l.045-.148ZM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z" />
-        </svg></h2>
-      <span >Controle de Produtividade de Funcionários</span>
-    </div>
-    <div class="card-container">
-      <form id="serviceFormBsm">
 
-        <label>Nome do Funcionário:</label>
-        <input type="text" class="funcionarioBsm" placeholder="cadastrar Funcionário" required>
-        <label>Numero do Pix:</label>
-        <input type="number" class="pixbsm" placeholder=" chave Pix" required>
-        <br>
-        <select class="select" id="profissaoBsm" onchange="atualizaSelectProfissao()">
-          <option value="prof-01" selected>Profissão</option>
-          <option value="Prof-02">Ladrilheiro</option>
-          <option value="prof-03-">Pedreiro</option>
-          <option value="prof-04-">Ajudante</option>
-          <option value="prof-05-">Mestre de Obras</option>
-        </select>
-        
-        <select class="select" id="servicoBsm" onchange="atualizaSelectServico()">
-          <option value="serv-01" seleqcted>Tarefas</option>
-          <option value="serv-02">Alvenaria</option>
-          <option value="serv-03">Contra Piso</option>
-          <option value="serv-01">Cerâmica</option>
-          <option value="Porcelanato">Porcelanato</option>
-          <option value="Reajunte">Rejunte</option>
-        </select>
-        
-       
-       
-        <label>Metragem Realizada:
-          <input type="number" id="metros" placeholder="Metros">
-          <input class="date" type="date" id="date" required>
-      
-          <div>
-          <button type="Button" onclick="registrarDados()">Registrar</button>
-        </div>
-        
-      </form>
-  <div class="result-style" id="result"></div>
-  <footer>
-    <img style="object-fit: contain;" id="logoBsm" src="./LOGO_BSM.png" />
-    <span>Todos os direitos reservados ©</span>
-    <span>Desenvolvido por Eduardo Alves</span>
-  </footer>
-    </div>
-    
- 
+  <div class="title">
+    <h2>BSM <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-gear"
+        viewBox="0 0 16 16">
+        <path
+          d="M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.708L8 2.207l-5 5V13.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 2 13.5V8.207l-.646.647a.5.5 0 1 1-.708-.708L7.293 1.5Z" />
+        <path
+          d="M11.886 9.46c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.044c-.613-.181-.613-1.049 0-1.23l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382l.045-.148ZM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z" />
+      </svg></h2>
+    <span>Controle de Produtividade de Funcionários</span>
+  </div>
+  <div class="card-container">
+    <form id="serviceFormBsm">
+
+      <label>Nome do Funcionário:</label>
+      <input type="text" id="funcionarioBsm" placeholder="cadastrar Funcionário" required>
+      <label>Numero do Pix:</label>
+      <input type="number" id="pixbsm" placeholder=" chave Pix" required>
+      <br>
+      <select class="select" id="profissaoBsm" >
+        <option value="prof-01" selected>Profissão</option>
+        <option value="Ladrilheiro">Ladrilheiro</option>
+        <option value="Pedreiro">Pedreiro</option>
+        <option value="Ajudante">Ajudante</option>
+        <option value="mestre de Obras-">Mestre de Obras</option>
+      </select>
+
+      <select class="select" id="servicoBsm">
+        <option value="serv-01" selected>Tarefas</option>
+        <option value="Alvenaria">Alvenaria</option>
+        <option value="Alvenaria">Alvenaria</option>
+        <option value="Cerâmica">Cerâmica</option>
+        <option value="Porcelanato">Porcelanato</option>
+        <option value="Rejunte">Rejunte</option>
+      </select>
+
+
+
+      <label>Metragem Realizada:
+        <input type="number" id="metros" placeholder="Metros">
+        <input type="date" id="date" required>
+        <button type="Button" onclick="registrarServico()">Registrar</button>
+    </form>
+    <div class="result-style" id="result"></div>
+    <footer>
+      <img style="object-fit: contain;" id="logoBsm" src="./LOGO_BSM.png" />
+      <span>Todos os direitos reservados ©</span>
+      <span>Desenvolvido por Eduardo Alves</span>
+    </footer>
+  </div>
+
+
 </body>
 
 
