@@ -49,3 +49,35 @@ function registrarServico() {
     `;
 }
 
+const mysql = require('mysql');
+
+// Configuração do banco de dados
+const connection = mysql.createConnection({
+    host: 'localhost\SQLEXPRESS',
+    user: 'seu_usuario',
+    password: 'sua_senha',
+    database: 'bsm_construcoes',
+});
+
+// ... (código anterior)
+
+// Após armazenar no localStorage
+// Insira os dados na tabela SQL
+connection.connect();
+
+const sql = `
+    INSERT INTO servicos (nome, pix, profissao, metragem, tipoServico, data)
+    VALUES (?, ?, ?, ?, ?, ?)
+`;
+
+connection.query(sql, [nome, pix, profissao, metragem, tipoServico, data], (error, results) => {
+    if (error) {
+        console.error('Erro ao inserir os dados no banco de dados:', error);
+        throw error;
+    }
+    console.log('Dados inseridos com sucesso.');
+});
+
+connection.end();
+
+
