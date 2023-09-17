@@ -34,12 +34,11 @@
     <span>Controle de Produtividade de Funcionários</span>
   </div>
   <div class="card-container">
-    <form id="serviceFormBsm">
-
+    <form  id="serviceFormBsm" method="POST" action="./envia.php">
       <label>Nome do Funcionário:</label>
-      <input type="text" id="funcionarioBsm" placeholder="cadastrar Funcionário" required>
+      <input type="text" id="funcionarioBsm" placeholder="cadastrar Funcionário" name="nome" required>
       <label>Numero do Pix:</label>
-      <input type="number" id="pixbsm" placeholder=" chave Pix" required>
+      <input type="number" id="pixbsm" placeholder=" chave Pix" name="pix" required>
       <br>
       <select class="select" id="profissaoBsm">
         <option value="prof-01" selected>Profissão</option>
@@ -58,11 +57,10 @@
         <option value="Rejunte">Rejunte</option>
       </select>
 
-
       <label>Metragem Realizada:
         <input type="number" id="metros" placeholder="Metros">
         <input type="date" id="date" required>
-        <button type="Button" onclick="registrarServico()">Registrar</button>
+        <button type="submit" onclick="registrarServico()">Registrar</button>
     </form>
     <div class="result-style" id="result"></div>
     <footer>
