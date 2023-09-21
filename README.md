@@ -1,3 +1,7 @@
+
+
+ 
+
 # Bsm_Construtora
 # Cadastro de Funcionários Empresa Bsm_Construtora
 Segue link do briefing desse projeto no MIRO
@@ -22,5 +26,8 @@ Campo de pix, Para facilitar na consulta do pix de cada funcioário para facilit
 
 Autor da criação do projeto:
 Eduardo Alves de Paulo Ferreira(Front-end/backend/banco de dados)
+
+
+ ![WhatsApp_Image_2023-09-06_at_15 35 03-removebg-preview](https://github.com/edugitdev/Bsm_Construtora/assets/131026887/ecbd874a-19bb-425a-941f-9263fef7998b)
 
 
