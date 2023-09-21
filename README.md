@@ -1,10 +1,11 @@
 # Bsm_Construtora
-# cadastro de Funcionários empresa Bsm Construtora
+# cadastro de Funcionários Empresa Bsm Construtora
 
 ----------------------------------------------------------------------------------------------------------
 
-interface sendo criada para realizar organização das atividades diárias de funcionários da empresa Bsm Construtora,
-com intuito de registrar quantidade de metros de trabalho realizado diariamente, juntamente com data, e também o tipo de atividade realizada por determinado funcionário, e futuramente com relatórios mensais de resultados.
+interface sendo criada para realizar organização das atividades diárias de funcionários da empresa Bsm Construtora;
+Com intuito de registrar quantidade de metros de trabalho realizado diariamente, juntamente com a data, e também o tipo de atividade realizada por determinado funcionário, e futuramente com relatórios mensais de resultados.
+Campo de pix, Para facilitar na consulta do pix de cada funcioário para facilitar o pagamento de forma ordenada para cada funcionário
 
 -----------------------------------------------------------------------------------------------------------
 
