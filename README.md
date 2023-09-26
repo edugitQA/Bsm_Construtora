@@ -1,10 +1,17 @@
+
+
+ 
+
 # Bsm_Construtora
-# cadastro de Funcionários empresa Bsm Construtora
+# Cadastro de Funcionários Empresa Bsm_Construtora
+Segue link do briefing desse projeto no MIRO
+https://miro.com/welcomeonboard/ZWhReWhnWkp3SGxnOFdrdUtlNk1yUklueVJidXE1NVRVVzlvejVUT3E5OGcyRk5FeG9ZdlZjbFpjZmFhZVVPTnwzNDU4NzY0NTYwNjYyMDQ0OTM2fDI=?share_link_id=677196076129
 
 ----------------------------------------------------------------------------------------------------------
 
-interface sendo criada para realizar organização das atividades diárias de funcionários da empresa Bsm Construtora,
-com intuito de registrar quantidade de metros de trabalho realizado diariamente, juntamente com data, e também o tipo de atividade realizada por determinado funcionário, e futuramente com relatórios mensais de resultados.
+interface sendo criada para realizar organização das atividades diárias de funcionários;
+Com intuito de registrar quantidade de metros de trabalho realizado diariamente, juntamente com a data, e também o tipo de atividade realizada por determinado funcionário, e futuramente com relatórios mensais de resultados.
+Campo de pix, Para facilitar na consulta do pix de cada funcioário para facilitar o pagamento de forma ordenada para cada funcionário
 
 -----------------------------------------------------------------------------------------------------------
 
@@ -19,5 +26,8 @@ com intuito de registrar quantidade de metros de trabalho realizado diariamente,
 
 Autor da criação do projeto:
 Eduardo Alves de Paulo Ferreira(Front-end/backend/banco de dados)
+
+
+ ![WhatsApp_Image_2023-09-06_at_15 35 03-removebg-preview](https://github.com/edugitdev/Bsm_Construtora/assets/131026887/ecbd874a-19bb-425a-941f-9263fef7998b)
 
 
