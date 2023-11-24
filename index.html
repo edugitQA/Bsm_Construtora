@@ -37,7 +37,13 @@
     <form  id="serviceFormBsm" method="POST" action="./envia.php">
       <label>Nome do Funcionário:</label>
       <input type="text" id="funcionarioBsm" placeholder="cadastrar Funcionário" name="nome" required>
+     
       <label>Numero do Pix:</label>
+      <select class="select" id="pix">
+        <option value="cpf" selected>CPF</option>
+        <option value="email">Email</option>
+        <option value="celular">Celular</option>
+      </select>
       <input type="number" id="pixbsm" placeholder=" chave Pix" name="pix" required>
       <br>
       <select class="select" id="profissaoBsm">
